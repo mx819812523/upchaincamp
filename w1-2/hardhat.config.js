@@ -20,7 +20,7 @@ module.exports = {
   networks: {
     dev: {
       url: "http://127.0.0.1:8545",
-      chainId: 31337
+      chainId: 31337,
     },
     goerli: {
       url: `https://goerli.infura.io/v3/${INFURA_API_KEY}`,
